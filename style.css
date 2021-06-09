@@ -301,7 +301,10 @@ a:hover {
     line-height: 44px;
 }
 
-
+.navbar-brand:focus
+{
+    border: 1px solid black;
+}
 
 
 .navbar-brand img {
@@ -338,6 +341,7 @@ a:hover {
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
+    color: yellow;
 }
 
 .navbar-toggle {
@@ -736,6 +740,12 @@ h4 {
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
+}
+
+.icons:focus
+{
+    color: blue;
+
 }
 
 .white {
