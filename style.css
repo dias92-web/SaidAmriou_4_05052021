@@ -341,7 +341,7 @@ a:hover {
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
-    color: yellow;
+    text-decoration: underline;
 }
 
 .navbar-toggle {
@@ -528,6 +528,13 @@ button {
     transition: all .3s ease-in-out;
 }
 
+
+
+.scrollToTop:focus
+{
+    border: 1px dashed black;
+}
+
 .scrollToTop span {
     margin-top: 6px;
 }
@@ -541,6 +548,11 @@ a[data-lightbox] {
     position: relative;
     display: block;
     text-align: center;
+}
+
+a[data-lightbox]:focus
+{
+    border: 1px solid black;
 }
 
 a[data-lightbox]:hover::before {
@@ -561,11 +573,17 @@ a[data-lightbox]:hover::before {
     -webkit-transform: translateY(-50%);
 }
 
+
+
+
+
 a[data-lightbox]:hover img {
     opacity: 0.6;
     -webkit-animation-fill-mode: none;
     animation-fill-mode: none;
 }
+
+
 
 #lightbox-modal {
     display: flex;
@@ -711,6 +729,11 @@ p {
     margin: auto auto auto auto;
 }
 
+.social:focus
+{
+    border: 1px dashed blue;
+}
+
 h2 {
     font-size: 22px;
     line-height: 1.4em;
@@ -822,12 +845,22 @@ h4 {
     color: #FFFFFF!important;
 }
 
+.btn-atomic-tangerine:focus
+{
+    border: 1px dashed black;
+}
+
 .ltc-white {
     color: #FFFFFF!important;
 }
 
 .ltc-white:hover {
     color: #cccccc!important;
+}
+
+.ltc-white:focus
+{
+    color: red!important;
 }
 
 .ltc-atomic-tangerine {
