@@ -484,10 +484,17 @@ button {
 
 .icon-md {
     font-size: 30px!important;
+    padding-bottom: 24px;
 }
 
 .icon-lg {
     font-size: 60px!important;
+}
+
+.row li
+{
+   padding: 12px 0 12px 0;
+   font-size: 17px;
 }
 
 .sm-shadow {
